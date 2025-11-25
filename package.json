@@ -1,0 +1,62 @@
+{
+  "name": "brilance-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Brilance - Personal Development School",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\"",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@sentry/react": "^10.25.0",
+    "@sentry/vite-plugin": "^4.6.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.553.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.66.0",
+    "react-intersection-observer": "^10.0.0",
+    "swiper": "^12.0.3",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  },
+  "keywords": [
+    "landing-page",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "personal-development",
+    "brilance"
+  ],
+  "author": "Brilance Team",
+  "license": "UNLICENSED"
+}

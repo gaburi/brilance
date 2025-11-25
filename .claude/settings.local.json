@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npm install:*)",
+      "Bash(copy constants.ts srcconstantsindex.ts)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(echo:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npx -v)",
+      "Bash(SENTRY_ACCESS_TOKEN=\"YOUR_SENTRY_TOKEN_HERE\" npx @sentry/mcp-server@latest:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout /t 3)",
+      "Bash(if not exist \"public\\assets\\images\" mkdir \"public\\assets\\images\")",
+      "Bash(node scripts/download-images.js:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote set-url:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
