@@ -20,7 +20,10 @@
       "Bash(git remote add:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(npx:*)",
+      "Bash(rm:*)"
     ],
     "deny": [],
     "ask": []

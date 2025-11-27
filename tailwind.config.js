@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xl-custom': '1448px',
+        '2xl-custom': '1980px',
+      },
       colors: {
         primary: {
           dark: '#00041b',
